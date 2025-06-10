@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type {Project} from "~/types";
-import ProjectArtwork from "~/components/ProjectArtwork.vue";
 
 defineProps({
     project: {

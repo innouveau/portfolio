@@ -7,18 +7,17 @@ useHead({
     title: 'Innouveau - ' + title,
 })
 
+definePageMeta({
+    layout: 'small'
+})
+
 
 const project = getProject(title)
 
 </script>
 
 <template>
-    <div v-if="project" class="Project">
-        <h1>
-            {{ project.title}}
-        </h1>
-        <div v-html="project.description" />
-    </div>
+    <single-project v-if="project" :project="project" />
 
     <div v-else>
         <h1>Project not found</h1>
@@ -27,8 +26,4 @@ const project = getProject(title)
 
 
 <style lang="scss" scoped>
-.Project
-{
-
-}
 </style>

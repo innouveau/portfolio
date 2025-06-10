@@ -43,8 +43,17 @@ const loadVideo = () => {
     });
 }
 
+const tryYT = () => {
+    if (YT) {
+        loadVideo();
+    } else {
+        setTimeout(tryYT, 100);
+    }
+}
+
 onMounted(() => {
-    loadVideo();
+    tryYT();
+
 })
 </script>
 
@@ -61,5 +70,6 @@ iframe.ProjectYoutube {
     width: 100%;
     height: 100%;
     border: none;
+    pointer-events: none;
 }
 </style>

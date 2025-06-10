@@ -7,6 +7,21 @@ useHead({
         { src: 'https://www.youtube.com/iframe_api' }
     ]
 })
+
+// onBeforeMount(() => {
+//     window.onYouTubeIframeAPIReady = () => {
+//         console.log("klaar");
+//     }
+// });
+//
+//
+// onMounted(() => {
+//     // window.onYouTubeIframeAPIReady = () => {
+//     //     console.log("klaar");
+//     // }
+// })
+
+
 </script>
 
 <template>
