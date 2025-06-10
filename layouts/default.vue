@@ -31,10 +31,14 @@ nav {
     overflow: auto;
 
     .content {
-        width: 864px;
+        width: 1200px;
         max-width: 100%;
         padding: 90px 24px;
         margin: 0 auto;
+    }
+
+    main {
+        margin-bottom: 80px;
     }
 }
 </style>

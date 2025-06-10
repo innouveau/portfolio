@@ -28,7 +28,7 @@ v-if="artwork.type === 'gif'" class="ProjectArtwork__gif"
 
 <style lang="scss" scoped>
 .ProjectArtwork {
-    height: 213px;
+    aspect-ratio: 16/9;
     position: relative;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -52,6 +52,7 @@ v-if="artwork.type === 'gif'" class="ProjectArtwork__gif"
         iframe {
             width: 100%;
             height: 100%;
+            border: 0;
         }
     }
 }
