@@ -28,7 +28,7 @@ nav {
 .wrapper {
     background: #F4EFE4;
     height: 100%;
-    overflow: auto;
+    overflow: scroll;
 
     .content {
         width: 1200px;

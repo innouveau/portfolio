@@ -14,7 +14,7 @@ const toggle = (type: string) => {
 </script>
 
 <template>
-    <div class="Filter">
+    <intro>
         <p>
             Innouveau is een innovatief bureau
             voor webdevelopment.
@@ -28,17 +28,5 @@ const toggle = (type: string) => {
         <project-filter-button :filter="filter" type="info" @click="toggle('info')">Interactieve infographics</project-filter-button> en
         <project-filter-button :filter="filter" type="3d" @click="toggle('3d')">3d configuratoren</project-filter-button>.
         </p>
-    </div>
+    </intro>
 </template>
-
-
-<style lang="scss" scoped>
-.Filter {
-    font-size: 22px;
-    width: 460px;
-    max-width: 100%;
-    margin: 0 auto 60px auto;
-    line-height: 1.8;
-    font-weight: 700;
-}
-</style>
