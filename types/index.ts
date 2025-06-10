@@ -18,6 +18,7 @@ export type Project = {
         position: string;
         logo: string;
     };
+    tags: string[]
 }
 
 export type Projects = {

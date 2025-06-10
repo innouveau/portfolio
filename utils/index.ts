@@ -10,6 +10,7 @@ import air from './bodies/air';
 const projects: Projects = {
     'f-domes': {
         title: 'F-Domes',
+        tags: ['3d'],
         subtitle: 'Hoe onze speelse 3d configurator ervoor zorgde dat de omzet met 50% steeg',
         headImage: '/projects/fdomes-head.jpg',
         link: 'https://3d.fdomes.com/',
@@ -29,6 +30,7 @@ const projects: Projects = {
     },
     'corona-map': {
         title: 'Corona Map',
+        tags: ['info'],
         subtitle: 'Applicatie met regionale up-to-date informatie over besmettingsgraad',
         key: 'corona-map',
         headImage: '/projects/zondag-met-lubach.png',
@@ -47,6 +49,7 @@ const projects: Projects = {
         }
     },
     'print-my-glasses': {
+        tags: ['app', '3d'],
         title: 'Print My Glasses',
         subtitle: 'Online je bril 3d configureren en op maat maken',
         key: 'print-my-glasses',
@@ -66,6 +69,7 @@ const projects: Projects = {
         }
     },
     'apm': {
+        tags: ['app'],
         title: 'APM / DAPS',
         subtitle: 'Optimalisatie d.m.v. techniek die de menselijke maat in het oog houdt',
         headImage: '/projects/workplace.jpg',
@@ -85,6 +89,7 @@ const projects: Projects = {
         }
     },
     'zodiac-pro': {
+        tags: ['3d'],
         title: 'Zodiac Pro',
         subtitle: 'Hoe onze speelse 3d configurator ervoor zorgde dat de omzet met 50% steeg',
         headImage: '/projects/zodiac-pro.jpg',
@@ -104,6 +109,7 @@ const projects: Projects = {
         }
     },
     'cleaner-air-for-all': {
+        tags: ['info'],
         title: 'Cleaner Air For All',
         subtitle: 'Interactieve infographic-serie over luchtkwaliteit in Europa',
         headImage: '/projects/cl3.gif',
@@ -122,6 +128,7 @@ const projects: Projects = {
         }
     },
     'the-cycle-of-paper-recycling': {
+        tags: ['info'],
         title: 'The Paper Cycle',
         key: 'the-cycle-of-paper-recycling',
         subtitle: 'Scrollytelling over de papierverwerkingsindustrie',
@@ -139,6 +146,7 @@ const projects: Projects = {
         }
     },
     'gassgrill-shop': {
+        tags: ['3d'],
         title: 'Gassgrill Shop',
         subtitle: 'Luxe 3d product configurator voor barbecues',
         headImage: '/projects/gasgrill-1.gif',
@@ -163,6 +171,9 @@ export const getProject = (title: string) => {
     return projects[title] || null;
 }
 
-export const getProjects = () => {
-    return Object.values(projects);
+export const getProjects = (filter: string[]) => {
+    const ps = Object.values(projects);
+    return ps.filter((p) => {
+        return filter.some((f) => p.tags.includes(f));
+    })
 }
