@@ -1,6 +1,12 @@
 <script setup lang="ts">
-
 import {getProjects} from "~/utils";
+
+useHead({
+    title: 'Innouveau - Projects',
+    script: [
+        { src: 'https://www.youtube.com/iframe_api' }
+    ]
+})
 </script>
 
 <template>
