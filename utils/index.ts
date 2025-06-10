@@ -65,7 +65,7 @@ const projects: Projects = {
         client: {
             name: 'Print My Glasses',
             position: 'Innovative startup for 3d printed glasses',
-            logo: '/clients/printmyglasses.png'
+            logo: ''
         }
     },
     'apm': {
@@ -162,7 +162,7 @@ const projects: Projects = {
         client: {
             name: 'Gassgrill Shop',
             position: 'Duitse marktleider in luxe barbecues',
-            logo: '/clients/gassgrill-logo-3.png'
+            logo: '/clients/gasgrill-logo-3.png'
         }
     }
 }

@@ -34,7 +34,11 @@ const projects = computed(() => {
 <template>
     <project-filter :filter="filter" @filter="atFilter" />
     <div class="Projects">
-        <project v-for="(project, index) in projects" :key="project.key" :project="project" />
+        <transition-group name="list">
+            <div v-for="(project, index) in projects" :key="project.key" class="wrapper">
+                <project :project="project" />
+            </div>
+        </transition-group>
     </div>
 </template>
 
@@ -46,4 +50,17 @@ const projects = computed(() => {
     gap: 16px;
 }
 
+</style>
+
+<style>
+
+.list-enter-active,
+.list-leave-active {
+    transition: all .2s ease;
+}
+
+.list-enter-from,
+.list-leave-to {
+    opacity: 0;
+}
 </style>

@@ -21,26 +21,26 @@ const loadVideo = () => {
             event.target.playVideo();
         }
     };
-
-    const player = new window.YT.Player('yt-' + props.src, {
-        videoId: props.src,
-        events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-        },
-        playerVars: {
-            'autoplay': 0,
-            'controls': 1,
-            'showinfo': 0,
-            'modestbranding': 1,
-            'rel': 0,
-            'loop': 1,
-            'start': 1
-        }
-    });
-    player.addEventListener('onReady', () => {
-        player.playVideo();
-    });
+    console.log(window.YT);
+    // const player = new window.YT.Player('yt-' + props.src, {
+    //     videoId: props.src,
+    //     events: {
+    //         'onReady': onPlayerReady,
+    //         'onStateChange': onPlayerStateChange
+    //     },
+    //     playerVars: {
+    //         'autoplay': 0,
+    //         'controls': 1,
+    //         'showinfo': 0,
+    //         'modestbranding': 1,
+    //         'rel': 0,
+    //         'loop': 1,
+    //         'start': 1
+    //     }
+    // });
+    // player.addEventListener('onReady', () => {
+    //     player.playVideo();
+    // });
 }
 
 const tryYT = () => {

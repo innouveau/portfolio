@@ -26,7 +26,7 @@ v-if="artwork.type === 'gif'" class="ProjectArtwork__gif"
     position: relative;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    //background: #eee;
+    background: #eee;
 
     &__gif {
         background-size: cover;

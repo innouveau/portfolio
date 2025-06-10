@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
-    <NuxtLink :to="'/projects/' + project.key" class="Project">
+    <NuxtLink  :to="'/projects/' + project.key" class="Project">
         <h3 class="Project__title">
             {{ project.title }}
         </h3>
@@ -32,7 +32,7 @@ defineProps({
             <div class="Project__client">
                 <div
 class="Project__client-avatar"
-                     :style="{'background-image': 'url(' + project.client.logo + ')'}" />
+                     :style="{'background-image': project.client.logo.length ? 'url(' + project.client.logo + ')' : ''}" />
                 <div class="Project__client-description">
                     <div class="Project__client-name">
                         {{ project.client.name }}
@@ -51,11 +51,10 @@ class="Project__client-avatar"
 .Project {
     background: #fff;
     box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    text-align: left;
-    max-width: 100%;
     color: inherit;
     text-decoration: none;
+    width: 100%;
+    display: block;
 
     &:hover {
         box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.5);
@@ -109,23 +108,29 @@ class="Project__client-avatar"
         padding: 12px 24px;
         display: flex;
         align-items: center;
+        height: 88px;
+        gap: 2px;
+        font-size: 13px;
 
         &-avatar {
-            width: 64px;
-            height: 64px;
+            width: 40px;
+            height: 40px;
             background-size: contain;
             background-position: 50% 50%;
             background-repeat: no-repeat;
             margin-right: 12px;
+            background-color: #fff;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 50%;
+
         }
 
         &-description {
-            flex-grow: 1;
+            width: calc(100% - 40px - 12px - 2px);
         }
 
         &-name {
             font-weight: 700;
-            font-size: 18px;
             line-height: 1.2;
         }
     }
