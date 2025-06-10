@@ -56,11 +56,13 @@ const projects = computed(() => {
 
 .list-enter-active,
 .list-leave-active {
-    transition: all .2s ease;
+    transition: all .4s ease;
+    transform: scale(1);
 }
 
 .list-enter-from,
 .list-leave-to {
     opacity: 0;
+    transform: scale(0);
 }
 </style>
