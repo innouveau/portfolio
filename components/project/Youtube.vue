@@ -22,7 +22,7 @@ const loadVideo = () => {
         }
     };
 
-    const player = new YT.Player('yt-' + props.src, {
+    const player = new window.YT.Player('yt-' + props.src, {
         videoId: props.src,
         events: {
             'onReady': onPlayerReady,
@@ -44,7 +44,7 @@ const loadVideo = () => {
 }
 
 const tryYT = () => {
-    if (YT) {
+    if (window.YT) {
         loadVideo();
     } else {
         setTimeout(tryYT, 100);

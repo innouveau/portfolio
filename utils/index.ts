@@ -3,6 +3,9 @@ import fdomes from './bodies/fdomes';
 import gasgrill from './bodies/gasgrill';
 import corona from './bodies/corona';
 import glass from './bodies/glass';
+import apm from './bodies/apm';
+import zodiac from './bodies/zodiac';
+import air from './bodies/air';
 
 const projects: Projects = {
     'f-domes': {
@@ -64,7 +67,12 @@ const projects: Projects = {
     },
     'apm': {
         title: 'APM / DAPS',
+        subtitle: 'Optimalisatie d.m.v. techniek die de menselijke maat in het oog houdt',
+        headImage: '/projects/workplace.jpg',
+        intro: 'APM is een platform met verschillende applicaties, die samen het beheer en management van de personeelsbezetting real-time regelt en stuurt. Door middel van beschikbare mankracht te combineren met verwachtte duur van een reparatie, helpt APM voor een optimale bezetting te zorgen.',
         key: 'apm',
+        body: apm,
+        link: '',
         description: 'APM is een platform met verschillende applicaties, die samen het beheer en management van de personeelsbezetting real-time regelt en stuurt. Door middelvan beschikbare mankracht te combineren met verwachtte duur van een reparatie, helpt APM voor een optimale bezetting te zorgen.',
         artwork: {
             src: 'QFHVxXAaMpM',
@@ -78,6 +86,11 @@ const projects: Projects = {
     },
     'zodiac-pro': {
         title: 'Zodiac Pro',
+        subtitle: 'Hoe onze speelse 3d configurator ervoor zorgde dat de omzet met 50% steeg',
+        headImage: '/projects/zodiac-pro.jpg',
+        link: '',
+        body: zodiac,
+        intro: 'Het speels samenstellen van je droomboot in de online configurator, waarbij je direct het resultaat in 3d ziet, is een fantastische marketingtool voor Zodiac Nautic. Hun omzet voor de modellen in de configurator steeg met liefst 50%. De configurator laat je uit verschillende maten boten kiezen, die je aan de hand van een grid helemaal kunt samenstellen met het type motor, stuurhut en onderdelen als een overkoepeling, duikplank, etc.',
         key: 'zodiac-pro',
         description: 'Het speels samenstellen van je droomboot in de online configurator, waarbij je direct het resultaat in 3d ziet, is een fantastische marketingtool voor Zodiac Nautic. Hun omzet voor de modellen in de configurator steeg met liefst 50%. De configurator laat je uit verschillende maten boten kiezen, die je aan de hand van een grid helemaal kunt samenstellen met het type motor, stuurhut en onderdelen als een overkoepeling, duikplank, etc.',
         artwork: {
@@ -92,8 +105,12 @@ const projects: Projects = {
     },
     'cleaner-air-for-all': {
         title: 'Cleaner Air For All',
-        key: 'cleanear-air-for-all',
+        subtitle: 'Interactieve infographic-serie over luchtkwaliteit in Europa',
+        headImage: '/projects/cl3.gif',
+        intro: 'Voor de Europese Commissie maakten we in opdracht van Schwandt een serie interactieve infographics.',
+        key: 'cleaner-air-for-all',
         description: 'Voor de Europese Commissie maakten we in opdracht van Schwandt een serie interactieve infographics. Deze zijn gemaakt om de impact van de Europese Green Deal te visualiseren en de betrokkenheid van burgers te vergroten.',
+        body: air,
         artwork: {
             src: 'WKTQO4IPNv0',
             type: 'youtube'
@@ -107,6 +124,9 @@ const projects: Projects = {
     'the-cycle-of-paper-recycling': {
         title: 'The Paper Cycle',
         key: 'the-cycle-of-paper-recycling',
+        subtitle: 'Scrollytelling over de papierverwerkingsindustrie',
+        headImage: '/projects/cepi.gif',
+        intro: 'CEPI is de organisatie die de Europese industrie van papierverwerking vertegenwoordigt. In opdracht van Schwandt Information Design creëerden we een scrollytelling die enerzijds het proces van ruw papiermateriaal (de opbrengst van o.a. de oud-papier inleverstromen) tot aan een waardevol eindproduct illustreert; en anderzijds inzichtelijk maakt wat er met de side streams gebeurt en hoe daar nog waarde uitgehaald wordt.',
         description: 'CEPI is de organisatie die de Europese industrie van papierverwerking vertegenwoordigt. In opdracht van Schwandt Information Design creëerden we een scrollytelling die enerzijds het proces van ruw papiermateriaal (de opbrengst van o.a. de oud-papier inleverstromen) tot aan een waardevol eindproduct illustreert; en anderzijds inzichtelijk maakt wat er met de side streams gebeurt en hoe daar nog waarde uitgehaald wordt.',
         artwork: {
             src: 'bP7p2yJ_B-s',

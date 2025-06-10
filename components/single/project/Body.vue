@@ -24,6 +24,11 @@ defineProps({
         width: 600px;
     }
 
+    :deep(.p--with-bar) {
+        padding-left: 20px;
+        border-left: 2px solid #FFD400;
+    }
+
     :deep(figure) {
         max-width: 100%;
         margin-left: auto;
