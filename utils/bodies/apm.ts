@@ -24,7 +24,7 @@ export default `<div class="case__body">
 <!-- /wp:paragraph -->
                 </div>
                 <div class="testimonial__client">
-                    <div style="background-image: url(https://innouveau.com/wp-content/uploads/2020/05/nico-hilderink-crs-i.jpg)" class="testimonial__avator">
+                    <div style="background-image: url(/projects/imports/nico-hilderink-crs-i.jpg)" class="testimonial__avator">
                     </div>
                     <div class="testimonial__client-description">
                         <div class="testimonial__client-name">
@@ -51,15 +51,15 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large figure--visited"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.08.22-1024x537.png" alt="" class="wp-image-958" srcset="https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.08.22-1024x537.png 1024w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.08.22-300x157.png 300w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.08.22-768x403.png 768w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.08.22.png 1448w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption>Detail kalender</figcaption></figure>
+<figure class="wp-block-image size-large figure--visited"><img src="/projects/imports/Screen-Shot-2020-12-18-at-17.08.22-1024x537.png" alt="" class="wp-image-958" srcset="https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.08.22-1024x537.png 1024w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.08.22-300x157.png 300w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.08.22-768x403.png 768w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.08.22.png 1448w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption>Detail kalender</figcaption></figure>
 
 
 
-<figure class="wp-block-image size-large figure--visited"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.09.36-1024x536.png" alt="" class="wp-image-960" srcset="https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.09.36-1024x536.png 1024w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.09.36-300x157.png 300w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.09.36-768x402.png 768w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.09.36.png 1448w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption>Detail contracten</figcaption></figure>
+<figure class="wp-block-image size-large figure--visited"><img src="/projects/imports/Screen-Shot-2020-12-18-at-17.09.36-1024x536.png" alt="" class="wp-image-960" srcset="https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.09.36-1024x536.png 1024w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.09.36-300x157.png 300w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.09.36-768x402.png 768w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.09.36.png 1448w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption>Detail contracten</figcaption></figure>
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.10.00-1024x537.png" alt="" class="wp-image-962" srcset="https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.10.00-1024x537.png 1024w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.10.00-300x157.png 300w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.10.00-768x403.png 768w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.10.00.png 1448w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption>Detail order inplannen</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/Screen-Shot-2020-12-18-at-17.10.00-1024x537.png" alt="" class="wp-image-962" srcset="https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.10.00-1024x537.png 1024w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.10.00-300x157.png 300w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.10.00-768x403.png 768w, https://innouveau.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-18-at-17.10.00.png 1448w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption>Detail order inplannen</figcaption></figure>
 
 
 
@@ -79,7 +79,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/05/daps-1-1024x679.png" alt="" class="wp-image-387" srcset="https://innouveau.com/wp-content/uploads/2020/05/daps-1-1024x679.png 1024w, https://innouveau.com/wp-content/uploads/2020/05/daps-1-300x199.png 300w, https://innouveau.com/wp-content/uploads/2020/05/daps-1-768x509.png 768w, https://innouveau.com/wp-content/uploads/2020/05/daps-1.png 1508w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/daps-1-1024x679.png" alt="" class="wp-image-387" srcset="https://innouveau.com/wp-content/uploads/2020/05/daps-1-1024x679.png 1024w, https://innouveau.com/wp-content/uploads/2020/05/daps-1-300x199.png 300w, https://innouveau.com/wp-content/uploads/2020/05/daps-1-768x509.png 768w, https://innouveau.com/wp-content/uploads/2020/05/daps-1.png 1508w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
 
 
 
@@ -91,7 +91,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/05/daps-werkplaats-setup-1024x573.png" alt="" class="wp-image-383" srcset="https://innouveau.com/wp-content/uploads/2020/05/daps-werkplaats-setup-1024x573.png 1024w, https://innouveau.com/wp-content/uploads/2020/05/daps-werkplaats-setup-300x168.png 300w, https://innouveau.com/wp-content/uploads/2020/05/daps-werkplaats-setup-768x430.png 768w, https://innouveau.com/wp-content/uploads/2020/05/daps-werkplaats-setup.png 1508w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption>Touchscreen met de applicatie op een werkplaats</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/daps-werkplaats-setup-1024x573.png" alt="" class="wp-image-383" srcset="https://innouveau.com/wp-content/uploads/2020/05/daps-werkplaats-setup-1024x573.png 1024w, https://innouveau.com/wp-content/uploads/2020/05/daps-werkplaats-setup-300x168.png 300w, https://innouveau.com/wp-content/uploads/2020/05/daps-werkplaats-setup-768x430.png 768w, https://innouveau.com/wp-content/uploads/2020/05/daps-werkplaats-setup.png 1508w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption>Touchscreen met de applicatie op een werkplaats</figcaption></figure>
 
 
 

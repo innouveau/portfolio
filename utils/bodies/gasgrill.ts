@@ -20,7 +20,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/wp-content/uploads/2020/11/gasgrill-2.gif" alt="" class="wp-image-726"></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/gasgrill-2.gif" alt="" class="wp-image-726"></figure>
 
 
 

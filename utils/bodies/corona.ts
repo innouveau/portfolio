@@ -4,11 +4,11 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large figure--visited"><img src="https://innouveau.com/wp-content/uploads/2020/11/europe-1.gif" alt="" class="wp-image-768"><figcaption><a href="https://covid19.innouveau.com/#/timeline?map=Europe">covid19.innouveau.com/#/timeline?map=Europe</a></figcaption></figure>
+<figure class="wp-block-image size-large figure--visited"><img src="/projects/imports/europe-1.gif" alt="" class="wp-image-768"><figcaption><a href="https://covid19.innouveau.com/#/timeline?map=Europe">covid19.innouveau.com/#/timeline?map=Europe</a></figcaption></figure>
 
 
 
-<figure class="wp-block-image size-large figure--visited"><img src="https://innouveau.com/wp-content/uploads/2020/11/netherlands.gif" alt="" class="wp-image-643"><figcaption><a rel="noreferrer noopener" href="https://covid19.innouveau.com/#/timeline?map=Europe" target="_blank">covid19.innouveau.com/#/timeline?map=Nederland</a></figcaption></figure>
+<figure class="wp-block-image size-large figure--visited"><img src="/projects/imports/netherlands.gif" alt="" class="wp-image-643"><figcaption><a rel="noreferrer noopener" href="https://covid19.innouveau.com/#/timeline?map=Europe" target="_blank">covid19.innouveau.com/#/timeline?map=Nederland</a></figcaption></figure>
 
 
 
@@ -16,7 +16,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/wp-content/uploads/2020/11/lockdowns.jpeg" alt="" class="wp-image-646" srcset="https://innouveau.com/wp-content/uploads/2020/11/lockdowns.jpeg 1000w, https://innouveau.com/wp-content/uploads/2020/11/lockdowns-300x300.jpeg 300w, https://innouveau.com/wp-content/uploads/2020/11/lockdowns-150x150.jpeg 150w, https://innouveau.com/wp-content/uploads/2020/11/lockdowns-768x768.jpeg 768w" sizes="(max-width: 1000px) 100vw, 1000px"></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/lockdowns.jpeg" alt="" class="wp-image-646" srcset="https://innouveau.com/wp-content/uploads/2020/11/lockdowns.jpeg 1000w, https://innouveau.com/wp-content/uploads/2020/11/lockdowns-300x300.jpeg 300w, https://innouveau.com/wp-content/uploads/2020/11/lockdowns-150x150.jpeg 150w, https://innouveau.com/wp-content/uploads/2020/11/lockdowns-768x768.jpeg 768w" sizes="(max-width: 1000px) 100vw, 1000px"></figure>
 
 
 
@@ -24,7 +24,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/wp-content/uploads/2020/11/world.gif" alt="" class="wp-image-676"></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/uploads/2020/11/world.gif" alt="" class="wp-image-676"></figure>
 
 
 
@@ -36,7 +36,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/11/zondag-met-lubach-1024x562.png" alt="" class="wp-image-627" srcset="https://innouveau.com/wp-content/uploads/2020/11/zondag-met-lubach-1024x562.png 1024w, https://innouveau.com/wp-content/uploads/2020/11/zondag-met-lubach-300x165.png 300w, https://innouveau.com/wp-content/uploads/2020/11/zondag-met-lubach-768x422.png 768w, https://innouveau.com/wp-content/uploads/2020/11/zondag-met-lubach.png 1120w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/zondag-met-lubach-1024x562.png" alt="" class="wp-image-627" srcset="https://innouveau.com/wp-content/uploads/2020/11/zondag-met-lubach-1024x562.png 1024w, https://innouveau.com/wp-content/uploads/2020/11/zondag-met-lubach-300x165.png 300w, https://innouveau.com/wp-content/uploads/2020/11/zondag-met-lubach-768x422.png 768w, https://innouveau.com/wp-content/uploads/2020/11/zondag-met-lubach.png 1120w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
 
 
 
@@ -46,7 +46,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/11/trouw-1024x578.jpeg" alt="" class="wp-image-653" srcset="https://innouveau.com/wp-content/uploads/2020/11/trouw-1024x578.jpeg 1024w, https://innouveau.com/wp-content/uploads/2020/11/trouw-300x169.jpeg 300w, https://innouveau.com/wp-content/uploads/2020/11/trouw-768x433.jpeg 768w, https://innouveau.com/wp-content/uploads/2020/11/trouw.jpeg 1496w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/trouw-1024x578.jpeg" alt="" class="wp-image-653" srcset="https://innouveau.com/wp-content/uploads/2020/11/trouw-1024x578.jpeg 1024w, https://innouveau.com/wp-content/uploads/2020/11/trouw-300x169.jpeg 300w, https://innouveau.com/wp-content/uploads/2020/11/trouw-768x433.jpeg 768w, https://innouveau.com/wp-content/uploads/2020/11/trouw.jpeg 1496w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
 
 
 

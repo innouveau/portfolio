@@ -11,12 +11,12 @@ const projects: Projects = {
     'f-domes': {
         title: 'F-Domes',
         tags: ['3d'],
-        subtitle: 'Hoe onze speelse 3d configurator ervoor zorgde dat de omzet met 50% steeg',
+        subtitle: 'Spelenderwijs je aankoop configureren: leads stegen met 30-40%',
         headImage: '/projects/fdomes-head.jpg',
         link: 'https://3d.fdomes.com/',
         key: 'f-domes',
         description: 'F.Domes is een snel groeiend bedrijf dat hoogwaardige domes (grote tenten) voor verschillende doeleinden produceert: showrooms, popup stores, glamping, festivals, etc. Hun vraag was om het aantal en de kwaliteit van hun leads te verhogen. Daarnaast was er de behoefte vanuit het sales team om de tijdsinvestering in een lead te verlagen.',
-        intro: 'Het speels samenstellen van je droomboot in de online configurator, waarbij je direct het resultaat in 3d ziet, is een fantastische marketingtool voor Zodiac Nautic. Hun omzet voor de modellen in de configurator steeg met liefst 50%. De configurator laat je uit verschillende maten boten kiezen, die je aan de hand van een grid helemaal kunt samenstellen met het type motor, stuurhut en onderdelen als een overkoepeling, duikplank, etc.',
+        intro: 'F.Domes is een snel groeiend bedrijf dat hoogwaardige domes (grote tenten) voor verschillende doeleinden produceert: showrooms, popup stores, glamping, festivals, etc. Hun vraag was om het aantal en de kwaliteit van hun leads te verhogen. Daarnaast was er de behoefte vanuit het sales team om de tijdsinvestering in een lead te verlagen.',
         body: fdomes,
         artwork: {
             src: 'rlYcyBVPF2o',
@@ -173,6 +173,7 @@ export const getProject = (title: string) => {
 
 export const getProjects = (filter: string[]) => {
     const ps = Object.values(projects);
+    console.log(ps);
     return ps.filter((p) => {
         return filter.some((f) => p.tags.includes(f));
     })

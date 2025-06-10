@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import {getProjects} from "~/utils";
-
 useHead({
     title: 'Innouveau',
 })
@@ -22,9 +20,7 @@ useHead({
             <nuxt-link to="/projects" class="home-button">👉 Bekijk portfolio</nuxt-link>
         </p>
     </intro>
-
 </template>
-
 
 <style lang="scss" scoped>
 .home-button {
@@ -47,6 +43,4 @@ useHead({
         color: #000;
     }
 }
-
-
 </style>

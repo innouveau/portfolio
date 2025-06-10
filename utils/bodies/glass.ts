@@ -24,7 +24,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/05/scanning-1-1024x429.jpg" alt="" class="wp-image-428" srcset="https://innouveau.com/wp-content/uploads/2020/05/scanning-1-1024x429.jpg 1024w, https://innouveau.com/wp-content/uploads/2020/05/scanning-1-300x126.jpg 300w, https://innouveau.com/wp-content/uploads/2020/05/scanning-1-768x322.jpg 768w, https://innouveau.com/wp-content/uploads/2020/05/scanning-1.jpg 1160w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/scanning-1-1024x429.jpg" alt="" class="wp-image-428" srcset="https://innouveau.com/wp-content/uploads/2020/05/scanning-1-1024x429.jpg 1024w, https://innouveau.com/wp-content/uploads/2020/05/scanning-1-300x126.jpg 300w, https://innouveau.com/wp-content/uploads/2020/05/scanning-1-768x322.jpg 768w, https://innouveau.com/wp-content/uploads/2020/05/scanning-1.jpg 1160w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
 
 
 
@@ -44,7 +44,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/05/3d-printed-1.png" alt="" class="wp-image-435" srcset="https://innouveau.com/wp-content/uploads/2020/05/3d-printed-1.png 900w, https://innouveau.com/wp-content/uploads/2020/05/3d-printed-1-300x171.png 300w, https://innouveau.com/wp-content/uploads/2020/05/3d-printed-1-768x437.png 768w" sizes="(max-width: 900px) 100vw, 900px"></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/3d-printed-1.png" alt="" class="wp-image-435" srcset="https://innouveau.com/wp-content/uploads/2020/05/3d-printed-1.png 900w, https://innouveau.com/wp-content/uploads/2020/05/3d-printed-1-300x171.png 300w, https://innouveau.com/wp-content/uploads/2020/05/3d-printed-1-768x437.png 768w" sizes="(max-width: 900px) 100vw, 900px"></figure>
 
 
 
@@ -60,7 +60,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/06/print-my-glasses.png" alt="" class="wp-image-471" srcset="https://innouveau.com/wp-content/uploads/2020/06/print-my-glasses.png 720w, https://innouveau.com/wp-content/uploads/2020/06/print-my-glasses-300x300.png 300w, https://innouveau.com/wp-content/uploads/2020/06/print-my-glasses-150x150.png 150w" sizes="(max-width: 720px) 100vw, 720px"></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/print-my-glasses.png" alt="" class="wp-image-471" srcset="https://innouveau.com/wp-content/uploads/2020/06/print-my-glasses.png 720w, https://innouveau.com/wp-content/uploads/2020/06/print-my-glasses-300x300.png 300w, https://innouveau.com/wp-content/uploads/2020/06/print-my-glasses-150x150.png 150w" sizes="(max-width: 720px) 100vw, 720px"></figure>
 
 
 

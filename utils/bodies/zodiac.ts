@@ -12,7 +12,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/05/zodiac-pro-2016-show.jpg" alt="" class="wp-image-162" srcset="https://innouveau.com/wp-content/uploads/2020/05/zodiac-pro-2016-show.jpg 655w, https://innouveau.com/wp-content/uploads/2020/05/zodiac-pro-2016-show-300x200.jpg 300w" sizes="(max-width: 655px) 100vw, 655px"></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/zodiac-pro-2016-show.jpg" alt="" class="wp-image-162" srcset="https://innouveau.com/wp-content/uploads/2020/05/zodiac-pro-2016-show.jpg 655w, https://innouveau.com/wp-content/uploads/2020/05/zodiac-pro-2016-show-300x200.jpg 300w" sizes="(max-width: 655px) 100vw, 655px"></figure>
 
 
 
@@ -24,7 +24,7 @@ export default `<div class="case__body">
 
 
 
-<figure class="wp-block-image size-large"><img src="https://innouveau.com/projecten/2020/wp-content/uploads/2020/05/zodiac-details.jpg" alt="" class="wp-image-420" srcset="https://innouveau.com/wp-content/uploads/2020/05/zodiac-details.jpg 904w, https://innouveau.com/wp-content/uploads/2020/05/zodiac-details-300x153.jpg 300w, https://innouveau.com/wp-content/uploads/2020/05/zodiac-details-768x391.jpg 768w" sizes="(max-width: 904px) 100vw, 904px"><figcaption>Detail 3d model</figcaption></figure>
+<figure class="wp-block-image size-large"><img src="/projects/imports/zodiac-details.jpg" alt="" class="wp-image-420" srcset="https://innouveau.com/wp-content/uploads/2020/05/zodiac-details.jpg 904w, https://innouveau.com/wp-content/uploads/2020/05/zodiac-details-300x153.jpg 300w, https://innouveau.com/wp-content/uploads/2020/05/zodiac-details-768x391.jpg 768w" sizes="(max-width: 904px) 100vw, 904px"><figcaption>Detail 3d model</figcaption></figure>
 
 
 
@@ -56,7 +56,7 @@ export default `<div class="case__body">
 <!-- /wp:paragraph -->
                 </div>
                 <div class="testimonial__client">
-                    <div style="background-image: url(https://innouveau.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-04-at-21.24.38.png)" class="testimonial__avator">
+                    <div style="background-image: url(/projects/imports/Screen-Shot-2020-05-04-at-21.24.38.png)" class="testimonial__avator">
                     </div>
                     <div class="testimonial__client-description">
                         <div class="testimonial__client-name">
