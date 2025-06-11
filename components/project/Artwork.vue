@@ -15,7 +15,7 @@ defineProps({
 v-if="artwork.type === 'gif'" class="ProjectArtwork__gif"
              :style="{'background-image': 'url(' + artwork.src + ')'}"/>
 
-        <project-youtube v-if="artwork.type === 'youtube'" :src="artwork.src" />
+        <ProjectYoutube v-if="artwork.type === 'youtube'" :src="artwork.src" />
     </div>
 </template>
 

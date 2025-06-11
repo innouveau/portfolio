@@ -5,7 +5,7 @@
 <template>
     <nav class="Navigation">
         <nuxt-link to="/">
-            <logo-innouveau />
+            <LogoInnouveau />
         </nuxt-link>
     </nav>
 </template>

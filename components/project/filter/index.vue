@@ -24,9 +24,9 @@ const toggle = (type: string) => {
         </p>
 
         <p>
-        Wij maken <project-filter-button :filter="filter" type="app" @click="toggle('app')">Online applicaties</project-filter-button>,
-        <project-filter-button :filter="filter" type="info" @click="toggle('info')">Interactieve infographics</project-filter-button> en
-        <project-filter-button :filter="filter" type="3d" @click="toggle('3d')">3d configuratoren</project-filter-button>.
+        Wij maken <ProjectFilterButton :filter="filter" type="app" @click="toggle('app')">Online applicaties</ProjectFilterButton>,
+        <ProjectFilterButton :filter="filter" type="info" @click="toggle('info')">Interactieve infographics</ProjectFilterButton> en
+        <ProjectFilterButton :filter="filter" type="3d" @click="toggle('3d')">3d configuratoren</ProjectFilterButton>.
         </p>
     </intro>
 </template>

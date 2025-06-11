@@ -32,13 +32,13 @@ const projects = computed(() => {
 </script>
 
 <template>
-    <project-filter :filter="filter" @filter="atFilter" />
+    <ProjectFilter :filter="filter" @filter="atFilter" />
     <div class="Projects">
-        <transition-group name="list">
+        <TransitionGroup name="list">
             <div v-for="(project, index) in projects" :key="project.key" class="wrapper">
                 <Project :project="project" />
             </div>
-        </transition-group>
+        </TransitionGroup>
     </div>
 </template>
 

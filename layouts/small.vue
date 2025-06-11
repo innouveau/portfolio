@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <navigation />
+    <Navigation />
 
     <div class="wrapper">
         <div class="content">
