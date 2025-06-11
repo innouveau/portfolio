@@ -117,6 +117,7 @@ const projects: Projects = {
         key: 'cleaner-air-for-all',
         description: 'Voor de Europese Commissie maakten we in opdracht van Schwandt een serie interactieve infographics. Deze zijn gemaakt om de impact van de Europese Green Deal te visualiseren en de betrokkenheid van burgers te vergroten.',
         body: air,
+        link: '',
         artwork: {
             src: 'WKTQO4IPNv0',
             type: 'youtube'
@@ -133,6 +134,8 @@ const projects: Projects = {
         key: 'the-cycle-of-paper-recycling',
         subtitle: 'Scrollytelling over de papierverwerkingsindustrie',
         headImage: '/projects/cepi.gif',
+        link: '',
+        body: '',
         intro: 'CEPI is de organisatie die de Europese industrie van papierverwerking vertegenwoordigt. In opdracht van Schwandt Information Design creëerden we een scrollytelling die enerzijds het proces van ruw papiermateriaal (de opbrengst van o.a. de oud-papier inleverstromen) tot aan een waardevol eindproduct illustreert; en anderzijds inzichtelijk maakt wat er met de side streams gebeurt en hoe daar nog waarde uitgehaald wordt.',
         description: 'CEPI is de organisatie die de Europese industrie van papierverwerking vertegenwoordigt. In opdracht van Schwandt Information Design creëerden we een scrollytelling die enerzijds het proces van ruw papiermateriaal (de opbrengst van o.a. de oud-papier inleverstromen) tot aan een waardevol eindproduct illustreert; en anderzijds inzichtelijk maakt wat er met de side streams gebeurt en hoe daar nog waarde uitgehaald wordt.',
         artwork: {
@@ -173,7 +176,6 @@ export const getProject = (title: string) => {
 
 export const getProjects = (filter: string[]) => {
     const ps = Object.values(projects);
-    console.log(ps);
     return ps.filter((p) => {
         return filter.some((f) => p.tags.includes(f));
     })

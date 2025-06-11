@@ -17,7 +17,7 @@ const project = getProject(title)
 </script>
 
 <template>
-    <single-project v-if="project" :project="project" />
+    <SingleProject v-if="project" :project="project" />
 
     <div v-else>
         <h1>Project not found</h1>

@@ -21,7 +21,6 @@ defineProps({
         </div>
 
         <div class="Head__image" :style="{'background-image': 'url(' + project.headImage + ')'}" />
-
     </div>
 </template>
 
@@ -68,7 +67,17 @@ defineProps({
         border-top: 1px solid #aaa;
         border-bottom: 1px solid #aaa;
     }
+}
 
+@media (max-width: 1024px)  {
+    .Head {
+        margin: 0 0 40px 0;
+        width: 100%;
 
+        &__image {
+            height: auto;
+            aspect-ratio: 1.5;
+        }
+    }
 }
 </style>

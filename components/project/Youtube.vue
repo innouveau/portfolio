@@ -21,7 +21,6 @@ const loadVideo = () => {
             event.target.playVideo();
         }
     };
-    console.log(window.YT);
     const player = new window.YT.Player('yt-' + props.src, {
         videoId: props.src,
         events: {

@@ -47,7 +47,7 @@ defineProps({
         line-height: 1.2;
     }
 
-    :deep(img) {
+    :deep(img), :deep(iframe) {
         max-width: 100%;
     }
 
