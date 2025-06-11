@@ -13,12 +13,13 @@
     top: 0;
     width: 100%;
     height: 100%;
+    font-family: 'Dosis', sans-serif;
 }
 </style>
 
 <style lang="scss">
 * {
     box-sizing: border-box;
-    font-family: 'Dosis', sans-serif;
+
 }
 </style>

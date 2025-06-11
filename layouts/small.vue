@@ -11,7 +11,7 @@
                 <slot />
             </main>
 
-            <contact />
+            <Contact />
         </div>
     </div>
 </template>
