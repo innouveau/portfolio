@@ -36,7 +36,7 @@ const projects = computed(() => {
     <div class="Projects">
         <transition-group name="list">
             <div v-for="(project, index) in projects" :key="project.key" class="wrapper">
-                <project :project="project" />
+                <Project :project="project" />
             </div>
         </transition-group>
     </div>
