@@ -7,7 +7,7 @@ useHead({
 </script>
 
 <template>
-    <intro>
+    <Intro>
         <p>
             Innouveau is een innovatief bureau
             voor webdevelopment.
@@ -16,10 +16,10 @@ useHead({
             We schrijven code, maar houden van design.
         </p>
 
-        <p>
-            <nuxt-link to="/projects" class="home-button">👉 Bekijk portfolio</nuxt-link>
-        </p>
-    </intro>
+        <Slogan />
+
+        <nuxt-link to="/projects" class="home-button">👉 Bekijk portfolio</nuxt-link>
+    </Intro>
 </template>
 
 <style lang="scss" scoped>

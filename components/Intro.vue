@@ -17,5 +17,10 @@
     margin: 0 auto 60px auto;
     line-height: 1.8;
     font-weight: 700;
+
+    :deep(p) {
+        padding-left: 20px;
+        border-left: 2px solid #FFD400;
+    }
 }
 </style>
